@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.patienttracker">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".list1"></activity>
+        <activity android:name=".otp_phone1" />
+        <activity android:name=".login_phone1" />
+        <activity android:name=".login_google1" />
+        <activity android:name=".signup_form1" />
+        <activity android:name=".login_form1" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".PatientList" />
+        <activity android:name=".death" />
+        <activity android:name=".Patient" />
+        <activity android:name=".AppointmentList" />
+        <activity android:name=".Doctor2" />
+        <activity android:name=".Doctor1" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".ViewAllPdfFiles" />
+        <activity android:name=".Reports" />
+        <activity android:name=".appointment1" />
+        <activity android:name=".feedback" />
+        <activity android:name=".appointment" />
+        <activity android:name=".list" />
+        <activity android:name=".doctor" />
+        <activity android:name=".otp_phone" />
+        <activity android:name=".login_phone" />
+        <activity android:name=".login_google" />
+        <activity android:name=".signup_form" />
+        <activity android:name=".Forgotpassword" />
+        <activity android:name=".login_form" />
+        <activity
+            android:name=".Main2Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Screen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

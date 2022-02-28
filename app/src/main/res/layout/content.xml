@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  NAME"
+        android:textColor="#101010"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textSize="10dp"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  TIME"
+        android:textColor="#101010"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Time"
+        android:textSize="10dp"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:layout_below="@id/name"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  DATE"
+        android:textColor="#101010"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:textSize="10dp"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:layout_below="@id/time"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  REASON"
+        android:textColor="#101010"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:id="@+id/reason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Reason"
+        android:textSize="10dp"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:layout_below="@id/date"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Update"
+        android:background="#101010"
+        android:text="Update"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

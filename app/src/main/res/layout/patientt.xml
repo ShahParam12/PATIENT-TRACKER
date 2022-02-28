@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  NAME"
+        android:textColor="#101010"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  LAST NAME"
+        android:textColor="#101010"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/text_last"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last name"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:layout_below="@id/text_dis"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  AGE"
+        android:textColor="#101010"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/text_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:layout_below="@id/text_add"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  DISEASE"
+        android:textColor="#101010"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/text_dis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Disease"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:layout_below="@id/text_age"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  ADDRESS"
+        android:textColor="#101010"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/text_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:layout_margin="5dp"/>
+
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/update"
+        android:background="#101010"
+        android:text="Update"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
